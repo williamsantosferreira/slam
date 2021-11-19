@@ -1,0 +1,2 @@
+robot
+-DCATKIN_DEVEL_PREFIX=/home/william/Área de Trabalho/slam/devel -DCMAKE_INSTALL_PREFIX=/home/william/Área de Trabalho/slam/install -G Unix Makefiles
