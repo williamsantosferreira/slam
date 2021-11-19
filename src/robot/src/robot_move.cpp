@@ -64,22 +64,22 @@ void Robot_move::keyloop(){
 	switch(c){
 	case KEYCODE_RIGHT:
 		ROS_INFO("Move to right");
-		angular=-0.2;
+		angular=-3;
 		linear=0.0;
 	break;
 	case KEYCODE_LEFT:
 		ROS_INFO("Move to left");
-		angular=0.2;
+		angular=3;
 		linear=0.0;
 	break;
 	case KEYCODE_UP:
 		ROS_INFO("Move to up");
-		linear=0.2;
+		linear=3;
 		angular=0.0;
 	break;
 	case KEYCODE_DOWN:
 		ROS_INFO("Move to down");
-		linear=-0.2;
+		linear=-3;
 		angular=0.0;
 	break;
 	case KEYCODE_SPACE: 
