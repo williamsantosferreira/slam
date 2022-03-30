@@ -1,0 +1,6 @@
+[submodule "hector_slam"]
+	path = hector_slam
+	url = https://github.com/tu-darmstadt-ros-pkg/hector_slam
+[submodule "src/hector_slam"]
+	path = src/hector_slam
+	url = https://github.com/tu-darmstadt-ros-pkg/hector_slam
