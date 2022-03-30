@@ -97,6 +97,7 @@ void Robot_move::keyloop(){
 
 	pub.publish(velocidade);
 }
+
 	tcsetattr(kfd, TCSADRAIN, &cooked);
 }
 
