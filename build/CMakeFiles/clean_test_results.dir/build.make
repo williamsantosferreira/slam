@@ -67,7 +67,7 @@ include CMakeFiles/clean_test_results.dir/compiler_depend.make
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/william/Área\ de\ Trabalho/slam/build/test_results
+	/usr/bin/python2 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/william/Área\ de\ Trabalho/slam/build/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make

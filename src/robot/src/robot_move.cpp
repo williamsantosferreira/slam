@@ -96,7 +96,9 @@ void Robot_move::keyloop(){
 	velocidade.angular.z = angular;
 
 	pub.publish(velocidade);
-}}
+}
+	tcsetattr(kfd, TCSADRAIN, &cooked);
+}
 
 Robot_move::Robot_move(){
 	linear= 0.0;

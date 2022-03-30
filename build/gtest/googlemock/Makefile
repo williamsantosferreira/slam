@@ -204,7 +204,6 @@ src/gmock-all.o: src/gmock-all.cc.o
 
 # target to build an object file
 src/gmock-all.cc.o:
-	cd "/home/william/Área de Trabalho/slam/build" && $(MAKE) $(MAKESILENT) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o
 	cd "/home/william/Área de Trabalho/slam/build" && $(MAKE) $(MAKESILENT) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
 .PHONY : src/gmock-all.cc.o
 
@@ -213,7 +212,6 @@ src/gmock-all.i: src/gmock-all.cc.i
 
 # target to preprocess a source file
 src/gmock-all.cc.i:
-	cd "/home/william/Área de Trabalho/slam/build" && $(MAKE) $(MAKESILENT) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.i
 	cd "/home/william/Área de Trabalho/slam/build" && $(MAKE) $(MAKESILENT) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i
 .PHONY : src/gmock-all.cc.i
 
@@ -222,7 +220,6 @@ src/gmock-all.s: src/gmock-all.cc.s
 
 # target to generate assembly for a file
 src/gmock-all.cc.s:
-	cd "/home/william/Área de Trabalho/slam/build" && $(MAKE) $(MAKESILENT) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.s
 	cd "/home/william/Área de Trabalho/slam/build" && $(MAKE) $(MAKESILENT) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s
 .PHONY : src/gmock-all.cc.s
 
@@ -250,33 +247,6 @@ src/gmock_main.cc.s:
 	cd "/home/william/Área de Trabalho/slam/build" && $(MAKE) $(MAKESILENT) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
 .PHONY : src/gmock_main.cc.s
 
-usr/src/googletest/googletest/src/gtest-all.o: usr/src/googletest/googletest/src/gtest-all.cc.o
-.PHONY : usr/src/googletest/googletest/src/gtest-all.o
-
-# target to build an object file
-usr/src/googletest/googletest/src/gtest-all.cc.o:
-	cd "/home/william/Área de Trabalho/slam/build" && $(MAKE) $(MAKESILENT) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/usr/src/googletest/googletest/src/gtest-all.cc.o
-	cd "/home/william/Área de Trabalho/slam/build" && $(MAKE) $(MAKESILENT) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/usr/src/googletest/googletest/src/gtest-all.cc.o
-.PHONY : usr/src/googletest/googletest/src/gtest-all.cc.o
-
-usr/src/googletest/googletest/src/gtest-all.i: usr/src/googletest/googletest/src/gtest-all.cc.i
-.PHONY : usr/src/googletest/googletest/src/gtest-all.i
-
-# target to preprocess a source file
-usr/src/googletest/googletest/src/gtest-all.cc.i:
-	cd "/home/william/Área de Trabalho/slam/build" && $(MAKE) $(MAKESILENT) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/usr/src/googletest/googletest/src/gtest-all.cc.i
-	cd "/home/william/Área de Trabalho/slam/build" && $(MAKE) $(MAKESILENT) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/usr/src/googletest/googletest/src/gtest-all.cc.i
-.PHONY : usr/src/googletest/googletest/src/gtest-all.cc.i
-
-usr/src/googletest/googletest/src/gtest-all.s: usr/src/googletest/googletest/src/gtest-all.cc.s
-.PHONY : usr/src/googletest/googletest/src/gtest-all.s
-
-# target to generate assembly for a file
-usr/src/googletest/googletest/src/gtest-all.cc.s:
-	cd "/home/william/Área de Trabalho/slam/build" && $(MAKE) $(MAKESILENT) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/usr/src/googletest/googletest/src/gtest-all.cc.s
-	cd "/home/william/Área de Trabalho/slam/build" && $(MAKE) $(MAKESILENT) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/usr/src/googletest/googletest/src/gtest-all.cc.s
-.PHONY : usr/src/googletest/googletest/src/gtest-all.cc.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -298,9 +268,6 @@ help:
 	@echo "... src/gmock_main.o"
 	@echo "... src/gmock_main.i"
 	@echo "... src/gmock_main.s"
-	@echo "... usr/src/googletest/googletest/src/gtest-all.o"
-	@echo "... usr/src/googletest/googletest/src/gtest-all.i"
-	@echo "... usr/src/googletest/googletest/src/gtest-all.s"
 .PHONY : help
 
 

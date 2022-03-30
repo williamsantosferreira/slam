@@ -69,38 +69,10 @@ include gtest/googlemock/CMakeFiles/gmock_main.dir/progress.make
 # Include the compile flags for this target's objects.
 include gtest/googlemock/CMakeFiles/gmock_main.dir/flags.make
 
-gtest/googlemock/CMakeFiles/gmock_main.dir/usr/src/googletest/googletest/src/gtest-all.cc.o: gtest/googlemock/CMakeFiles/gmock_main.dir/flags.make
-gtest/googlemock/CMakeFiles/gmock_main.dir/usr/src/googletest/googletest/src/gtest-all.cc.o: /usr/src/googletest/googletest/src/gtest-all.cc
-gtest/googlemock/CMakeFiles/gmock_main.dir/usr/src/googletest/googletest/src/gtest-all.cc.o: gtest/googlemock/CMakeFiles/gmock_main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/william/Área de Trabalho/slam/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object gtest/googlemock/CMakeFiles/gmock_main.dir/usr/src/googletest/googletest/src/gtest-all.cc.o"
-	cd "/home/william/Área de Trabalho/slam/build/gtest/googlemock" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gtest/googlemock/CMakeFiles/gmock_main.dir/usr/src/googletest/googletest/src/gtest-all.cc.o -MF CMakeFiles/gmock_main.dir/usr/src/googletest/googletest/src/gtest-all.cc.o.d -o CMakeFiles/gmock_main.dir/usr/src/googletest/googletest/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc
-
-gtest/googlemock/CMakeFiles/gmock_main.dir/usr/src/googletest/googletest/src/gtest-all.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gmock_main.dir/usr/src/googletest/googletest/src/gtest-all.cc.i"
-	cd "/home/william/Área de Trabalho/slam/build/gtest/googlemock" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/googletest/googletest/src/gtest-all.cc > CMakeFiles/gmock_main.dir/usr/src/googletest/googletest/src/gtest-all.cc.i
-
-gtest/googlemock/CMakeFiles/gmock_main.dir/usr/src/googletest/googletest/src/gtest-all.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gmock_main.dir/usr/src/googletest/googletest/src/gtest-all.cc.s"
-	cd "/home/william/Área de Trabalho/slam/build/gtest/googlemock" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/googletest/googletest/src/gtest-all.cc -o CMakeFiles/gmock_main.dir/usr/src/googletest/googletest/src/gtest-all.cc.s
-
-gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o: gtest/googlemock/CMakeFiles/gmock_main.dir/flags.make
-gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o: /usr/src/googletest/googlemock/src/gmock-all.cc
-gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o: gtest/googlemock/CMakeFiles/gmock_main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/william/Área de Trabalho/slam/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o"
-	cd "/home/william/Área de Trabalho/slam/build/gtest/googlemock" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o -MF CMakeFiles/gmock_main.dir/src/gmock-all.cc.o.d -o CMakeFiles/gmock_main.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc
-
-gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gmock_main.dir/src/gmock-all.cc.i"
-	cd "/home/william/Área de Trabalho/slam/build/gtest/googlemock" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/googletest/googlemock/src/gmock-all.cc > CMakeFiles/gmock_main.dir/src/gmock-all.cc.i
-
-gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gmock_main.dir/src/gmock-all.cc.s"
-	cd "/home/william/Área de Trabalho/slam/build/gtest/googlemock" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/googletest/googlemock/src/gmock-all.cc -o CMakeFiles/gmock_main.dir/src/gmock-all.cc.s
-
 gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o: gtest/googlemock/CMakeFiles/gmock_main.dir/flags.make
 gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o: /usr/src/googletest/googlemock/src/gmock_main.cc
 gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o: gtest/googlemock/CMakeFiles/gmock_main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/william/Área de Trabalho/slam/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/william/Área de Trabalho/slam/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
 	cd "/home/william/Área de Trabalho/slam/build/gtest/googlemock" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -MF CMakeFiles/gmock_main.dir/src/gmock_main.cc.o.d -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/googletest/googlemock/src/gmock_main.cc
 
 gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i: cmake_force
@@ -113,23 +85,21 @@ gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s: cmake_force
 
 # Object files for target gmock_main
 gmock_main_OBJECTS = \
-"CMakeFiles/gmock_main.dir/usr/src/googletest/googletest/src/gtest-all.cc.o" \
-"CMakeFiles/gmock_main.dir/src/gmock-all.cc.o" \
 "CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
 
 # External object files for target gmock_main
 gmock_main_EXTERNAL_OBJECTS =
 
-gtest/googlemock/libgmock_main.so: gtest/googlemock/CMakeFiles/gmock_main.dir/usr/src/googletest/googletest/src/gtest-all.cc.o
-gtest/googlemock/libgmock_main.so: gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o
-gtest/googlemock/libgmock_main.so: gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
-gtest/googlemock/libgmock_main.so: gtest/googlemock/CMakeFiles/gmock_main.dir/build.make
-gtest/googlemock/libgmock_main.so: gtest/googlemock/CMakeFiles/gmock_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/william/Área de Trabalho/slam/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libgmock_main.so"
+gtest/lib/libgmock_main.so: gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
+gtest/lib/libgmock_main.so: gtest/googlemock/CMakeFiles/gmock_main.dir/build.make
+gtest/lib/libgmock_main.so: gtest/lib/libgmock.so
+gtest/lib/libgmock_main.so: gtest/lib/libgtest.so
+gtest/lib/libgmock_main.so: gtest/googlemock/CMakeFiles/gmock_main.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/william/Área de Trabalho/slam/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library ../lib/libgmock_main.so"
 	cd "/home/william/Área de Trabalho/slam/build/gtest/googlemock" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmock_main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-gtest/googlemock/CMakeFiles/gmock_main.dir/build: gtest/googlemock/libgmock_main.so
+gtest/googlemock/CMakeFiles/gmock_main.dir/build: gtest/lib/libgmock_main.so
 .PHONY : gtest/googlemock/CMakeFiles/gmock_main.dir/build
 
 gtest/googlemock/CMakeFiles/gmock_main.dir/clean:

@@ -9,6 +9,7 @@
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/william/Área de Trabalho/slam/devel:$CMAKE_PREFIX_PATH"
 export LD_LIBRARY_PATH="/home/william/Área de Trabalho/slam/devel/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/william/Área de Trabalho/slam/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/william/Área de Trabalho/slam/build'
 export ROSLISP_PACKAGE_DIRECTORIES='/home/william/Área de Trabalho/slam/devel/share/common-lisp'
 export ROS_PACKAGE_PATH="/home/william/Área de Trabalho/slam/src:$ROS_PACKAGE_PATH"
